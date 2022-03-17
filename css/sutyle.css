@@ -1,0 +1,76 @@
+.navbar {
+  border-bottom: 1px solid #d3d3d3;
+  text-transform: uppercase;
+  grid-area: menu;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+}
+
+nav div ul {
+  list-style: none;
+}
+nav div ul li {
+  display: inline;
+  height: 2vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-left: 1px solid #d3d3d3;
+}
+nav a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #808080;
+}
+
+.pages {
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  border-top: 1px solid #d3d3d3;
+  grid-area: footer;
+}
+.footer a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footerIcons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.icon {
+  width: 2rem;
+  height: auto;
+  padding: 0.2rem;
+}
+
+.indexImage {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 1vh;
+  height: 100%;
+  width: auto;
+}
+
+.container {
+  background-color: #808081;
+}
+
+/*# sourceMappingURL=sutyle.css.map */
